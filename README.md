@@ -4,13 +4,7 @@ The given Python code is a simple math quiz program that generates random arithm
 
 **Importing Modules**: The code begins by importing two modules: `random` and `time`. The random module is used to generate random numbers and make random choices, while the time module is used to measure the execution time of the quiz.
 
-**Constants**: There are three constants defined:
-
-`OPERATORS`: A list of arithmetic operators (+, -, *) that can be used in the problems.
-
-`MIN_OPERAND` and `MAX_OPERAND`: Define the range of random numbers that will be used as operands in the arithmetic problems.
-
-`TOTAL`: The total number of problems the user will be asked to solve.
+**Constants**: There are three constants defined: `OPERATORS`: A list of arithmetic operators (+, -, *) that can be used in the problems. `MIN_OPERAND` and `MAX_OPERAND`: Define the range of random numbers that will be used as operands in the arithmetic problems. `TOTAL`: The total number of problems the user will be asked to solve.
 
 **Function** `generate_problem()`: This function generates a random arithmetic problem and returns the problem expression and its corresponding answer.
 It randomly selects a left operand, right operand, and operator from the defined ranges and operators.
